@@ -1,0 +1,90 @@
+.h1 {
+    text-align: center;
+    background-color: #009879;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: -webkit-fill-available;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tha {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tr {
+    padding: 12px 15px;
+}
+
+#tbody1 {
+    text-align: center;
+}
+
+#tbody1 tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#tbody1 tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#tbody1 tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+#addName {
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+#addYear {
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+#addGender {
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+#editName {
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+#editYear {
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+#editGender {
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+#formAdd {
+    border: 1px solid black;
+    width: 300px
+}
+
+#formEdit {
+    border: 1px solid black;
+    width: 300px
+}
+
+.button {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

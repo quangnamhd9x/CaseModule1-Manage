@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CaseStudy</title>
+    <link rel="stylesheet" href="Csscasestudy.css">
+
+</head>
+<body>
+<h1 class="h1">Quản lý idol</h1>
+<form id="formAdd">
+    Nhập Tên: <input type="text" id="addName"><br>
+    Nhập năm sinh: <input type="text" id="addYear"><br>
+    Nhập giới tính: <input type="text" id="addGender"><br>
+    <button type="button" class="button" onclick="addGT()">Add</button>
+</form>
+<table id="myTable">
+    <thead class="tha">
+    <tr>
+        <th>STT</th>
+        <th>Name</th>
+        <th>Birthday</th>
+        <th>Gender</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody id="tbody1"></tbody>
+</table>
+<form id="formEdit">
+    Nhập Tên: <input type="text" id="editName"><br>
+    Nhập năm sinh: <input type="text" id="editYear"><br>
+    Nhập giới tính: <input type="text" id="editGender"><br>
+    <button type="button" class="button" onclick="editSaveGT()">Save</button>
+    <button type="button" class="button" onclick="exitGT()">Exit</button>
+</form>
+<button type="button" id="sreachO" onclick="searchObject()">Search</button>
+</body>
+</html>
+<script src="main.js"></script>
